@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation website</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="shortcut icon" href="image/bangladeshLogo.gif" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- =====================================carasole -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div id="home" class="carousel-inner">
+
+            <div class="carousel-item active">
+                <section class="header_home">
+                    <header>
+                        <a class="logo" href=""> <img src="image/bangladeshLogo.gif" alt=""> </a>
+                        <div class="toggle" onclick="menuToggle()"></div>
+                    </header>
+                    <div class="glass"></div>
+                    <div class="content">
+                        <h2>Independent Day... <br> <span>Our Bettalian Force</span></h2>
+                    </div>
+                    <video src="hourseRun.mp4" autoplay loop muted></video>
+                    <ul class="sci">
+                        <li style="--i:1"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li style="--i:2"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li style="--i:3"><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <ul class="navigation">
+                        <li style="--i:1;"><a href="">Home</a></li>
+                        <li style="--i:2;"><a href="">About</a></li>
+                        <li style="--i:3;"><a href="">Blog</a></li>
+                        <li style="--i:4;"><a href="">Contact</a></li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="carousel-item">
+                <main class="header_home">
+                    <header>
+                        <a class="logo" href=""> <img src="image/bangladeshLogo.gif" alt=""> </a>
+                        <div class="toggle" onclick="menuToggle2()"></div>
+                    </header>
+                    <div class="glass"></div>
+                    <div class="content">
+                        <h2>Stragle in life... <br> <span>Crystal clear ocean</span></h2>
+                    </div>
+                    <video src="slide02.mp4" autoplay loop muted></video>
+                    <ul class="sci">
+                        <li style="--i:1"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li style="--i:2"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li style="--i:3"><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <ul class="navigation">
+                        <li style="--i:1;"><a href="">Home</a></li>
+                        <li style="--i:2;"><a href="">About</a></li>
+                        <li style="--i:3;"><a href="">Blog</a></li>
+                        <li style="--i:4;"><a href="">Contact</a></li>
+                    </ul>
+                </main>
+            </div>
+
+            <div class="carousel-item">
+                <nav class="header_home">
+                    <header>
+                        <a class="logo" href=""> <img src="image/bangladeshLogo.gif" alt=""> </a>
+                        <div class="toggle" onclick="menuToggles()"></div>
+                    </header>
+                    <div class="glass"></div>
+                    <div class="content">
+                        <h2>Sad In Life... <br> <span>Crystal clear ocean</span></h2>
+                    </div>
+                    <video src="slide03.mp4" autoplay loop muted></video>
+                    <ul class="sci">
+                        <li style="--i:1"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li style="--i:2"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li style="--i:3"><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <ul class="navigation">
+                        <li style="--i:1;"><a href="">Home</a></li>
+                        <li style="--i:2;"><a href="">About</a></li>
+                        <li style="--i:3;"><a href="">Blog</a></li>
+                        <li style="--i:4;"><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+
+
+
+
+    <section id="about" class="about_wrap">
+        <main class="about">
+            <div class="container">
+                <div class="about_title text-center">
+                    <h1>About</h1>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6">
+                        <div class="about_img">
+                            <img src="image/giphy.gif" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about_content">
+                            <h2>This si battle fild anti ware</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate praesentium
+                                assumenda dolore quas adipisci dolores sunt perspiciatis. Consequatur, doloribus
+                                voluptatum eos sit dolorum enim impedit deleniti modi animi magnam nobis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex align-items-center mt-2">
+
+                    <div class="col-md-6">
+                        <div class="about_content2">
+                            <h2>This si battle fild anti ware</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate praesentium
+                                assumenda dolore quas adipisci dolores sunt perspiciatis. Consequatur, doloribus
+                                voluptatum eos sit dolorum enim impedit deleniti modi animi magnam nobis.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="about_img2">
+                            <img src="image/submerin.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex align-items-center mt-2">
+                    <div class="col-md-6">
+                        <div class="about_img">
+                            <img src="image/aire.gif" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about_content">
+                            <h2>This si battle fild anti ware</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate praesentium
+                                assumenda dolore quas adipisci dolores sunt perspiciatis. Consequatur, doloribus
+                                voluptatum eos sit dolorum enim impedit deleniti modi animi magnam nobis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex align-items-center mt-2">
+
+                    <div class="col-md-6">
+                        <div class="about_content2">
+                            <h2>This si battle fild anti ware</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate praesentium
+                                assumenda dolore quas adipisci dolores sunt perspiciatis. Consequatur, doloribus
+                                voluptatum eos sit dolorum enim impedit deleniti modi animi magnam nobis.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="about_img2">
+                            <img src="image/apache.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex align-items-center mt-2">
+                    <div class="col-md-6">
+                        <div class="about_img">
+                            <img src="image/boat_500x400_L.gif" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about_content">
+                            <h2>This si battle fild anti ware</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate praesentium
+                                assumenda dolore quas adipisci dolores sunt perspiciatis. Consequatur, doloribus
+                                voluptatum eos sit dolorum enim impedit deleniti modi animi magnam nobis.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </section>
+
+
+
+
+    <section>
+        <main class=" independence">
+            <div class="container inContainer">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="history_content">
+                            <h3>History Of Independence</h3>
+                            <p>The Independence Day Award, which is bestowed upon Bangladesh citizens or organizations
+                                on the eve of the Independence Day, is the highest state award given by the Government
+                                of Bangladesh.[17][18] This annual award, instituted in 1977, is given for substantial
+                                contribution in Independence War, the Language Movement, education, literature,
+                                journalism, public service, science-technology, medical science, social science, music,
+                                games and sports, fine arts, rural development, and other fields.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="history_video">
+                            <video src="Independence in bd.mkv" autoplay muted loop controls></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <section id="battel">
+        <main class="winBattle">
+            <div class="battle_win_title text-center">
+                <h1>Our Wining Battle</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 win_battle_content">
+                        <h3 class="text-center">Comilla Battle</h3>
+                        <p>The Independence Day Award, which is bestowed upon Bangladesh citizens or organizations
+                            on the eve of the Independence Day, is the highest state award given by the Government
+                            of Bangladesh.[17][18] This annual award, instituted in 1977, is given for substantial
+                            contribution in Independence War, the Language Movement, education, literature,
+                            journalism, public service, science-technology, medical science, social science, music,
+                            games and sports, fine arts, rural development, and other fields. The Independence Day
+                            Award, which is bestowed upon Bangladesh citizens or organizations on the eve of the
+                            Independence Day, is the highest state award given by the Government of
+                            Bangladesh.[17][18] This annual award, instituted in 1977, is given for substantial
+                            contribution in Independence War, the Language Movement, education, literature,
+                            journalism, public service, science-technology, medical science, social science, music,
+                            games and sports, fine arts, rural development, and other fields. The Independence Day
+                            Award, which is bestowed upon Bangladesh citizens or organizations on the eve of the
+                            Independence Day, is the highest state award given by the Government of
+                            Bangladesh.[17][18] This annual award, instituted in 1977, is given for substantial
+                            contribution in Independence War, the Language Movement, education, literature,
+                            journalism, public service, science-technology, medical science, social science, music,
+                            games and sports, fine arts, rural development, and other fields.</p>
+
+                    </div>
+                    <div class="col-md-5 win_battle_img">
+                        <img src="image/winBattle.gif" alt="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 win_battle_img">
+                        <img src="image/battle02.gif" alt="">
+                    </div>
+                    <div class="col-md-7 win_battle_content">
+                        <h3>Shilet Battle</h3>
+                        <p>The Independence Day Award, which is bestowed upon Bangladesh citizens or organizations
+                            on the eve of the Independence Day, is the highest state award given by the Government
+                            of Bangladesh.[17][18] This annual award, instituted in 1977, is given for substantial
+                            contribution in Independence War, the Language Movement, education, literature,
+                            journalism, public service, science-technology, medical science, social science, music,
+                            games and sports, fine arts, rural development, and other fields. The Independence Day
+                            Award, which is bestowed upon Bangladesh citizens or organizations on the eve of the
+                            Independence Day, is the highest state award given by the Government of
+                            Bangladesh.[17][18] This annual award, instituted in 1977, is given for substantial
+                            contribution in Independence War, the Language Movement, education, literature,
+                            journalism, public service, science-technology, medical science, social science, music,
+                            games and sports, fine arts, rural development, and other fields. The Independence Day
+                            Award, which is bestowed upon Bangladesh citizens or organizations on the eve of the
+                            Independence Day, is the highest state award given by the Government of
+                            Bangladesh.[17][18] This annual award, instituted in 1977, is given for substantial
+                            contribution in Independence War, the Language Movement, education, literature,
+                            journalism, public service, science-technology, medical science, social science, music,
+                            games and sports, fine arts, rural development, and other fields.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <section class="staf_wrap">
+        <main class="">
+            <div class="container staf_box">
+                <div class="battle_win_title text-center">
+                    <h1>Our Force Chief</h1>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="box">
+                            <img src="image/staf/Masihuzzaman.png" alt="">
+                            <div class="box-content">
+                                <h3>MASIHUZZAMAN SERNIABAT</h3>
+                                <h5>AIR CHIEF MARSHAL</h5>
+                                <p>Air Chief Marshal Masihuzzaman Serniabat, BBP, OSP, ndu, psc was born on 14 February
+                                    1962. He joined Bangladesh Air Force on 16 March 1980 as a flight cadet and was
+                                    commissioned in General Duties (Pilot) branch on 19 June 1982.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="box">
+                            <img src="image/staf/Shaheen.png" alt="">
+                            <div class="box-content">
+                                <h3>Admiral M Shaheen Iqbal</h3>
+                                <h5>Chief of Naval Staff</h5>
+                                <p>
+                                    Admiral M Shaheen Iqbal, NBP, NUP, ndc, afwc, psc was promoted to the rank of Vice
+                                    Admiral and assumed the command of Bangladesh Navy as the 16th Chief of Naval Staff
+                                    on
+                                    25th July 2020. Prior</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box">
+                            <img src="image/staf/Gen-Aziz.png" alt="">
+                            <div class="box-content">
+                                <h3>General Aziz Ahmed</h3>
+                                <h5>Chief of Army Staff</h5>
+                                <p>General Aziz Ahmed, SBP, BSP, BGBM, PBGM, BGBMS, psc, G has taken over the Command of
+                                    Bangladesh Army as the 16th Chief of Army Staff on 25 June 2018. He has been
+                                    honoured as
+                                    the Colonel Commandant of the Armored Corps.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+
+
+    <!-- Swiper -->
+    <section style="background: black;">
+
+        <div class="hero_title_img container">
+            <img class="hero_title_img" src="image/runAnime2.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime3.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime4.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime5.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime6.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime7.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime8.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime9.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime5.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime3.gif" alt="">
+        </div>
+
+        <main class="heroic">
+            <div class="battle_win_title text-center">
+                <h1>Our Seven Heroic warrior</h1>
+            </div>
+
+            <div class="container">
+
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide"
+                            style="background-image:url(./image/Mohiuddin-Jahangir-biographybd2.jpg)">
+                            <div class="content">
+                                <h3 class=" text-center">Mohiuddin Jahangir</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(./image/mostafa-kamal.jpeg)">
+                            <div class="content">
+                                <h3>Mostafa Kamal</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(./image/Munshi-Abdur-Rouf.jpg)">
+                            <div class="content text-center">
+                                <h3>Munshi Abdur Rouf</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(./image/Nur-Mohammad-Sheikh.jpg)">
+                            <div class="content">
+                                <h3>Nur Mohammad Sheikh</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(./image/Ruhul-Amin.jpg)">
+                            <div class="content">
+                                <h3 class=" text-center">Ruhul Amin</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"
+                            style="background-image:url(./image/বীরশ্রেষ্ঠ_মহিউদ্দিন_জাহাঙ্গীর.jpg)">
+                            <div class="content">
+                                <h3>Mohiuddin Jahangir</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(./image/matiure.jpg)">
+                            <div class="content">
+                                <h3>Matiure Rahman</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </main>
+        <div class="hero_title_img_footer">
+            <img class="hero_title_img" src="image/runAnime2.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime3.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime4.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime5.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime6.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime7.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime8.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime9.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime5.gif" alt="">
+            <img class="hero_title_img" src="image/runAnime3.gif" alt="">
+        </div>
+    </section>
+
+
+
+    <section id="spech">
+        <main class="speece_seven_march">
+            <div class="battle_win_title text-center">
+                <h1>The day was March 7, 1971</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 speece_content">
+                        <p>My brothers; Today I have appeared before you with a sad heart. You all know and understand.
+                            We have tried with our lives. But sadly, today the highways in Dhaka, Chittagong, Khulna,
+                            Rajshahi, Rangpur are stained with my brother's blood. Today the people of Bengal want
+                            liberation, the people of Bengal want to live, the people of Bengal want their rights. What
+                            I did wrong, in the election, the people of Bangladesh completely voted for me Awami League.
+                            Our National Assembly will sit, we will make the constitution there and we will build this
+                            country, the people of this country will be liberated economically, politically and
+                            culturally. But sadly, sad to say today, the tragic history of twenty-three years is the
+                            history of the oppression of Bengal, the history of the blood of the people of Bengal.
+                            Twenty-three years of history is the history of the cries of dying men and women; The
+                            history of Bengal is the history of painting the highways with the blood of the people of
+                            this country. I gave blood in 1952. Despite winning the election in 1954, we could not sit
+                            on the mat. In 1956, Ayub Khan issued martial law and kept us as slaves for ten years. My
+                            sons were shot dead on June 6, 1966 during the Six-Point Movement. After the fall of Ayub
+                            Khan in the 1969 movement, when Mr. Yahya Khan took over the government, he said, give
+                            constitution to the country, give democracy. We agreed. Then there was a lot of history,
+                            elections. I met with President Yahya Khan. I, as the leader of the Majority Party of
+                            Pakistan, not only of Bengal, requested him to convene the National Assembly on 15th
+                            February. He didn't talk about me, he talked about Mr. Bhutto. The first week will be in
+                            March, he said. We said, OK, we'll sit in the assembly. I said, I will discuss in the
+                            assembly; I have even said so far that if anyone speaks fairly, even if we are outnumbered,
+                            if there is one, we will accept his fair words. Mr. Bhutto came here, discussed. He said
+                            that the door of discussion will not be closed, there will be more discussions. Then I
+                            talked to other leaders, you sit down, we talk and make a constitution. He said if members
+                            from West Pakistan came here, the slaughterhouse would be the assembly. He said that whoever
+                            went would be killed. Shops from Peshawar to Karachi will be forcibly closed if anyone comes
+                            to the assembly. I said, the assembly will continue. Then suddenly the assembly was closed
+                            on the 1st. Mr. Yahya Khan called the assembly as president. I said I would go. Mr Bhutto
+                            said he would not go. 35 members came here from West Pakistan. Then it was abruptly stopped.
+                            The people of Bengal were blamed, I was blamed. People protested at gunpoint. I said, you
+                            observe the strike peacefully. I said, you shut down the factory. The people responded.
+                            People voluntarily took to the streets. They were determined to continue the struggle
+                            peacefully.</p>
+                    </div>
+                    <div class="col-md-5 speece_image">
+                        <img src="image/bangabandhu.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </section>
+
+
+    <section>
+        <main class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer_logo">
+                            <img src="image/bangladeshLogo.gif" alt="">
+                            <p>My golden Bengali, I love you, <br> forever your sky, your wind, my flute</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="force_list">
+                            <h3>Forces</h3>
+                            <ul>
+
+                                <li><a href="https://joinairforce.baf.mil.bd/" target="_blank">AireForce</a></li>
+                                <li><a href="http://www.joinnavy.mil.bd/" target="_blank">Naval Force</a></li>
+                                <li><a href="https://www.army.mil.bd/" target="_blank">Bangladesh Armey</a></li>
+                                <li><a href="https://military.wikia.org/wiki/Main_Page" target="_blank">Pera Comando</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="force_list">
+                            <h3>Menu</h3>
+                            <ul>
+
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#battel">Battel Ground</a></li>
+                                <li><a href="#spech">Speece</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="force_list">
+                            <h3>Joyan Us</h3>
+                            <ul>
+
+                                <p>Please join our forces and serve the country and help save the country by eliminating
+                                    all corruption from the country.</p>
+                                <div class="d-flex justify-content-left align-items-center joyn_force">
+                                    <li><a href="https://joinairforce.baf.mil.bd/" target="_blank" title="Aire Force"><i
+                                                class="fa fa-fighter-jet"></i></a></li>
+                                    <li><a href="http://www.joinnavy.mil.bd/" target="_blank" title="Naval Force"><i
+                                                class="fa fa-ship"></i></a></li>
+                                    <li><a href="https://www.army.mil.bd/" target="_blank" title="Bangladesh Armey"><i
+                                                class="fa fa-male"></i></a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footerCopyRight">
+            <p>Copyright 2020 © All rights reserved by <a href="https://sajjathossain.netlify.app/" target="_blank">Sajjat
+                    Hossain</a></p>
+        </footer>
+    </section>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        function menuToggle() {
+            const toggleMenu = document.querySelector('.toggle');
+            const section = document.querySelector('section');
+            toggleMenu.classList.toggle('active');
+            section.classList.toggle('active');
+        }
+
+        function menuToggle2() {
+            const toggleMenu2 = document.querySelector('.toggle');
+            const main = document.querySelector('main');
+            toggleMenu2.classList.toggle('active');
+            main.classList.toggle('active');
+        }
+
+        function menuToggles() {
+            const toggleMenus = document.querySelector('.toggle');
+            const nav = document.querySelector('nav');
+            toggleMenus.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+
+
+
+
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+
+
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
